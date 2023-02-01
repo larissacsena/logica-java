@@ -1,0 +1,13 @@
+public class Main {
+    /*Crie uma função que recebe um ARRAY de INTEIROS e SOME o conteúdo de
+    TODO array e retorne o valor da soma. Ex: [1,2,3] -> 6.*/
+    public static void main(String[] args) {
+        int[] inteiros={2,4,7};
+        sum(inteiros);
+    }
+    public static void sum(int[] array){
+        for (int i=0;i<array.length;i++){
+            System.out.println(i);
+        }
+    }
+}
